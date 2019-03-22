@@ -28,7 +28,7 @@ Kubeapps. If you don't have Helm or Kubeapps you can follow the [installation in
 
 ## Deploy Service Catalog
 
-The Service Catalog is distributed as a Helm Chart and it is ready to be
+The Service Catalog is distributed as a Helm chart and it is ready to be
 deployed with Kubeapps.
 
 To deploy it in your cluster, navigate to `Service Instances` and click on
@@ -36,7 +36,7 @@ To deploy it in your cluster, navigate to `Service Instances` and click on
 
 ![Service Catalog installation](../img/install-service-catalog.png)
 
-You will deploy the Service Catalog as any other Helm Chart
+You will deploy the Service Catalog as any other Helm chart
 installed through Kubeapps. We recommend to at least change the following value in
 `values.yaml`:
 
@@ -69,13 +69,13 @@ Broker for Azure on AKS Quickstart](https://github.com/Azure/open-service-broker
 Although the Quickstart mentions AKS, the instructions should work in any Kubernetes
 cluster.
 
-To check that the broker has been succesfully deployed run the following:
+To check that the broker has been successfully deployed run the following:
 
 ```
 kubectl get ClusterServiceBroker osba
 ```
 
-If the Broker has been succesfully installed and the catalog has been properly
+If the Broker has been successfully installed and the catalog has been properly
 downloaded you should get the following output:
 
 ```
